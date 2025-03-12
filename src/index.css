@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @plugin 'tailwindcss-animate';
 
@@ -121,4 +121,23 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.badge-wrap {
+  max-width: 100%;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Force breaking on all characters in compact view */
+.break-all {
+  word-break: break-all;
+  white-space: normal;
+}
+
+/* Add this class to your global styles to make all badges break words */
+[variant='outline'] {
+  max-width: 100%;
+  white-space: normal;
+  word-break: break-all;
 }
