@@ -1,5 +1,3 @@
-import { SidebarIcon } from 'lucide-react';
-import { ThemeToggle } from './theme-toggle';
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -11,8 +9,10 @@ import {
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 import { useSidebar } from '@/components/ui/sidebar';
+import { SidebarIcon } from 'lucide-react';
 import { useLocation } from 'react-router';
 import { SearchCommand } from './search-command';
+import { ThemeToggle } from './theme-toggle';
 
 export function SiteHeader() {
   const { toggleSidebar } = useSidebar();

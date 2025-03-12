@@ -6,8 +6,8 @@
     "date": "September 2016 – July 2018",
     "site": "https://en.mazust.ac.ir/",
     "wikipedia": "https://en.wikipedia.org/wiki/University_of_Science_and_Technology_of_Mazandaran",
-    "image": "../assets/ustm-image.jpg",
-    "logo": "ustmLogo"
+    "image": "/ustm-image.jpg",
+    "logo": "/ustm-logo.jpg"
   },
   {
     "id": "bachelor",
@@ -16,7 +16,7 @@
     "date": "September 2012 – July 2016",
     "site": "https://www.ustmb.ac.ir/En",
     "wikipedia": "https://en.wikipedia.org/wiki/Mazandaran_University_of_Science_and_Technology",
-    "image": "ustmImage",
-    "logo": "ustmbLogo"
+    "image": "/ustmb-image.jpg",
+    "logo": "/ustmb-logo.gif"
   }
 ]

@@ -1,12 +1,3 @@
-import {
-  Calendar,
-  Code,
-  Copy,
-  ExternalLink,
-  GitFork,
-  Star,
-} from 'lucide-react';
-import { formatDistanceToNow } from 'date-fns';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import {
@@ -21,7 +12,16 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '@/components/ui/tooltip';
-import { Repo } from './repos';
+import { formatDistanceToNow } from 'date-fns';
+import {
+  Calendar,
+  Code,
+  Copy,
+  ExternalLink,
+  GitFork,
+  Star,
+} from 'lucide-react';
+import type { Repo } from './repos';
 
 interface RepoCardProps {
   repo: Repo;

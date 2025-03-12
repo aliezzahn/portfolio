@@ -1,13 +1,13 @@
-import { BrowserRouter, Routes, Route } from 'react-router';
-import Me from './pages/Me';
+import { BrowserRouter, Route, Routes } from 'react-router';
+import Layout from './components/layout';
+import Contact from './pages/Contact';
 import Educations from './pages/Educations';
 import Experiences from './pages/Experiences';
 import Experties from './pages/Experties';
+import Me from './pages/Me';
 import Packages from './pages/Packages';
 import Publications from './pages/Publications';
 import Repositories from './pages/Repositories';
-import Layout from './components/layout';
-import Contact from './pages/Contact';
 
 const routes = [
   { path: '/', element: <Me /> },

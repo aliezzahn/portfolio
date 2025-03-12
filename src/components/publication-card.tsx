@@ -1,5 +1,5 @@
 import { Card, CardContent } from '@/components/ui/card';
-import { FileText, Calendar, MapPin } from 'lucide-react';
+import { Calendar, FileText, MapPin } from 'lucide-react';
 
 interface JournalPublication {
   authors: string;

@@ -3,21 +3,15 @@ import { pluginReact } from '@rsbuild/plugin-react';
 
 export default defineConfig({
   plugins: [pluginReact()],
-  output: { distPath: { root: 'build' } },
+  output: {
+    distPath: {
+      root: 'build',
+    },
+    assetPrefix: '/', // Define publicPath here
+  },
   html: {
-    title: 'aliezzahn',
-    meta: {
-      description: "aliezzahn's Portfolio",
-    },
-    appIcon: {
-      name: 'aliezzahn',
-      icons: [
-        {
-          src: 'https://digibrandco.com/_next/image?url=%2Fdigibrand_logo.jpg&w=1200&q=75',
-          size: 192,
-        },
-      ],
-    },
+    favicon: './public/favicon.ico',
+    template: './public/index.html',
   },
 
   module: {

@@ -1,7 +1,7 @@
-import { format } from 'date-fns';
-import { Mail, Phone, Building2, Calendar } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
+import { format } from 'date-fns';
+import { Building2, Calendar, Mail, Phone } from 'lucide-react';
 
 interface ProfileInfoProps {
   email?: string;

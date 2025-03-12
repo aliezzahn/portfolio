@@ -1,8 +1,6 @@
 'use client';
 
-import * as React from 'react';
-import type { DialogProps } from '@radix-ui/react-dialog';
-import { Search, Code, GitFork, Star, ExternalLink } from 'lucide-react';
+import type { Repo } from '@/components/repos';
 import { Button } from '@/components/ui/button';
 import {
   CommandDialog,
@@ -13,8 +11,10 @@ import {
   CommandList,
   CommandSeparator,
 } from '@/components/ui/command';
-import type { Repo } from '@/components/repos';
 import reposData from '@/data/repos.json';
+import type { DialogProps } from '@radix-ui/react-dialog';
+import { Code, ExternalLink, GitFork, Search, Star } from 'lucide-react';
+import * as React from 'react';
 import { useNavigate } from 'react-router';
 
 export function SearchCommand({ ...props }: DialogProps) {

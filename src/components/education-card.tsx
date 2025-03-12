@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, GraduationCap, Calendar } from 'lucide-react';
+import { ExternalLink, Calendar } from 'lucide-react';
 
 interface Education {
   id: string;
@@ -21,8 +21,22 @@ export function EducationCard({ education }: EducationCardProps) {
   return (
     <Card className="overflow-hidden">
       <div className="md:flex">
-        <div className="md:w-1/3 bg-gradient-to-br from-primary to-primary-foreground p-6 flex items-center justify-center">
-          <GraduationCap className="h-24 w-24 text-background" />
+        <div className="md:w-1/3 relative">
+          <div className="relative h-48 md:h-full w-full">
+            <img
+              src={education.image || '/placeholder.svg?height=300&width=400'}
+              alt={`${education.content} campus`}
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+            <div className="absolute bottom-4 left-4 bg-white dark:bg-gray-900 rounded-full p-1 shadow-md">
+              <img
+                src={education.logo || '/placeholder.svg?height=40&width=40'}
+                alt={`${education.content} logo`}
+                className="w-10 h-10 rounded-full"
+              />
+            </div>
+          </div>
         </div>
         <div className="md:w-2/3">
           <CardHeader>
