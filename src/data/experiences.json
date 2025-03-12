@@ -1,0 +1,110 @@
+[
+  {
+    "id": "niroo",
+    "title": "Software Engineer",
+    "company": "Niroo Research Institute",
+    "location": "Tehran, Iran",
+    "period": "2019 - 2021",
+    "achievements": [
+      "Designed UI for two desktop applications: \"Optimal Placement of EV Charging Stations\" and \"Assessment of EV Effect on Network Load Forecasting\" using Python and C++ Qt.",
+      "Developed multi-threaded optimization algorithms to ensure smooth application performance.",
+      "Rewrote core ArcGIS modules for enhanced GIS functionality.",
+      "Built an AI neural network for rapid data prediction using Tensorflow and Keras.",
+      "Created algorithms to convert GIS objects into graph networks for traffic and electricity network analysis.",
+      "Designed a multi-objective meta-heuristic algorithm for parallel optimization.",
+      "Developed a customer conversion algorithm using advanced statistics.",
+      "Implemented State Estimation to predict power values for data-deficient customers."
+    ],
+    "techStack": ["Python", "C++", "C", "Qt", "Tensorflow", "Keras", "ArcGIS"],
+    "responsibilities": [
+      "Frontend and backend development",
+      "Algorithm design and optimization",
+      "GIS data processing",
+      "AI/ML integration",
+      "Statistical analysis"
+    ]
+  },
+  {
+    "id": "freelance",
+    "title": "Freelance Projects",
+    "company": "",
+    "location": "",
+    "period": "2021 - 2022",
+    "achievements": [
+      "Built a real-time streaming platform with features like messaging, attachments, and video calls using Next.js and Socket.io.",
+      "Developed reinforcement learning-based games (Snake, Ping-Pong) with PyTorch.",
+      "Created a Triangular Arbitrage system for multiple crypto exchanges.",
+      "Designed a live chat application using Flask."
+    ],
+    "techStack": [
+      "Next.js",
+      "Prisma",
+      "Tailwind",
+      "MongoDB",
+      "Socket.io",
+      "UploadThing",
+      "Python",
+      "PyTorch",
+      "OpenAI",
+      "Tensorflow",
+      "Flask",
+      "MySQL",
+      "Planetscale",
+      "Clerk"
+    ],
+    "responsibilities": [
+      "Full-stack development",
+      "Real-time feature implementation",
+      "AI/ML model training",
+      "Database management",
+      "UI/UX design"
+    ]
+  },
+  {
+    "id": "laqira",
+    "title": "Full-Stack Developer",
+    "company": "Laqira Protocol",
+    "location": "",
+    "period": "2022 - Present",
+    "achievements": [
+      "Developed responsive frontend interfaces with React and React Native.",
+      "Built scalable backend systems using Node, Bun, and Express.",
+      "Created Telegram Bots with Python, Redis, and MongoDB.",
+      "Engineered full-stack solutions using MERN stack and React Native.",
+      "Integrated Web3 functionalities for blockchain interactions.",
+      "Developed Telegram Mini Apps for enhanced user engagement."
+    ],
+    "techStack": [
+      "React",
+      "React Native",
+      "Node.js",
+      "Bun",
+      "Express",
+      "Python",
+      "Redis",
+      "MongoDB",
+      "Web3.js",
+      "Pug",
+      "Morgan",
+      "Crypto-Js",
+      "AWS-SDK",
+      "Bluebird",
+      "Ether",
+      "Websocket",
+      "Sharp",
+      "Web3-React",
+      "Btoa",
+      "Cannon",
+      "IPFS",
+      "Styled Components",
+      "Redux-Toolkit"
+    ],
+    "responsibilities": [
+      "Frontend development",
+      "Backend development",
+      "Bot development",
+      "Web3 integration",
+      "Full-stack project management"
+    ]
+  }
+]

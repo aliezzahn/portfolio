@@ -1,0 +1,57 @@
+{
+  "npm": [
+    {
+      "name": "auto-changelog-generator",
+      "url": "https://www.npmjs.com/package/auto-changelog-generator",
+      "repo": "https://github.com/aliezzahn/auto-changelog-generator",
+      "home_page": "https://github.com/aliezzahn/auto-changelog-generator#readme",
+      "description": "auto-changelog-generator is a tool for generating changelogs automatically from GitHub issues and pull requests."
+    },
+    {
+      "name": "http-easy",
+      "url": "https://www.npmjs.com/package/http-easy",
+      "repo": "https://github.com/aliezzahn/http-easy",
+      "home_page": "https://github.com/aliezzahn/http-easy#readme",
+      "description": "http-easy is a lightweight Node.js package that simplifies making HTTP requests with ease.\n\n"
+    },
+    {
+      "name": "auto-readme-generator",
+      "url": "https://www.npmjs.com/package/auto-readme-generator",
+      "repo": "https://github.com/aliezzahn/auto-readme-generator",
+      "home_page": "https://github.com/aliezzahn/auto-readme-generator#readme",
+      "description": "Auto-README Generator is a Node.js package designed to simplify the process of creating README files for your projects. It automatically extracts metadata from your package.json file and parses code comments from your source files to generate a comprehensive README file, saving you time and effort."
+    }
+  ],
+  "pypi": [
+    {
+      "name": "balue",
+      "url": "https://pypi.org/project/balue/",
+      "repo": "https://github.com/aliezzahn/balue",
+      "home_page": "https://github.com/aliezzahn/balue#readme",
+      "description": "Balue is a Python package that implements a multi-layered encryption algorithm for educational purposes. It combines substitution, permutation, and XOR encryption techniques to provide a basic encryption and decryption functionality."
+    }
+  ],
+  "github_npm": [
+    {
+      "type": "NPM",
+      "name": "web3-utils",
+      "url": "https://github.com/aliezzahn/web3-utils/pkgs/npm/web3-utils",
+      "repo": "https://github.com/aliezzahn/web3-utils",
+      "description": "A utility library for simplifying common Web3 tasks like generating wallets."
+    },
+    {
+      "type": "NPM",
+      "name": "gas-optimization-toolkit",
+      "url": "https://github.com/aliezzahn/gas-optimization-toolkit/pkgs/npm/gas-optimization-toolkit",
+      "repo": "https://github.com/aliezzahn/gas-optimization-toolkit",
+      "description": "A toolkit to help developers optimize gas usage in Ethereum smart contracts and transactions. This package provides utilities for gas estimation, gas price recommendations, Solidity code analysis, and gas token integration."
+    },
+    {
+      "type": "NPM",
+      "name": "multi-chain-abstraction",
+      "url": "https://github.com/aliezzahn/multi-chain-abstraction/pkgs/npm/multi-chain-abstraction",
+      "repo": "https://github.com/aliezzahn/multi-chain-abstraction",
+      "description": "A unified JavaScript library for interacting with multiple blockchains (EVM and non-EVM) using a single, consistent API. Supports Ethereum, Polygon, Avalanche, Solana, and Cosmos."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "isiJournals": [
+    {
+      "authors": "Hassannejad Marzouni, Alireza, Alireza Zakariazadeh, and Pierluigi Siano",
+      "title": "Measurement devices allocation in the distribution system using state estimation: A multi‐objective approach",
+      "journal": "International Transactions on Electrical Energy Systems",
+      "volume": "30",
+      "issue": "8",
+      "year": "2020",
+      "identifier": "e12469"
+    },
+    {
+      "authors": "Sahraie, E., Hassannejad Marzouni, A., Zakariazadeh, A., & Gholami, M.",
+      "title": "Reactive power market clearing mechanism considering new clearing constraints: a separate clearing approach",
+      "journal": "Electrical Engineering",
+      "volume": "102",
+      "pages": "1667–1679",
+      "year": "2020"
+    }
+  ],
+  "iscJournals": [
+    {
+      "authors": "Hassannejad Marzouni, A., and A. Zakariazadeh",
+      "title": "Error Modeling in Distribution Network State Estimation Using RBF-Based Artificial Neural Network",
+      "journal": "Iranian Journal of Electrical and Electronic Engineering",
+      "volume": "16",
+      "issue": "3",
+      "year": "2020",
+      "pages": "292-301"
+    },
+    {
+      "authors": "Hassannejad Marzouni, Alireza, and Alireza Zakariazadeh",
+      "title": "Multi-objective Measurement Devices Allocation Using State Estimation in the Distribution System",
+      "journal": "Journal of Iranian Association of Electrical and Electronics Engineers",
+      "volume": "16",
+      "issue": "1",
+      "year": "2019",
+      "pages": "103-117"
+    },
+    {
+      "authors": "Sahraie, Elahe, Alireza Hasannezhad Marzoni, Alireza Zakariazadeh, and Mostafa Gholami",
+      "title": "Separate Reactive power market clearing algorithm based on quality index of clearing market",
+      "journal": "Iranian Electric Industry Journal of Quality and Productivity",
+      "volume": "8",
+      "issue": "1",
+      "year": "2019",
+      "pages": "1-12"
+    }
+  ],
+  "conferences": [
+    {
+      "authors": "A. Hassannejad, E. Sahraie, A. Zakariazadeh, M. Gholami",
+      "title": "Prediction Of Market Power Competitive Levels Variation And Players Collusion Form By Decision Tree",
+      "event": "33rd International Power System Conference (PSC)",
+      "location": "Tehran, Iran",
+      "date": "October 22-24, 2018"
+    },
+    {
+      "authors": "E. Sahraie, A. Hassannejad, A. Zakariazadeh, M. Gholami",
+      "title": "New Reactive Power Market Clearing Scheme With Controlling The Market Competitive Level",
+      "event": "33rd International Power System Conference (PSC)",
+      "location": "Tehran, Iran",
+      "date": "October 22-24, 2018"
+    }
+  ]
+}
