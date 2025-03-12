@@ -1,37 +1,6 @@
-import { PublicationCard } from './publication-card';
+import PublicationCard from './publication-card';
 
-interface JournalPublication {
-  authors: string;
-  title: string;
-  journal: string;
-  volume: string;
-  issue?: string;
-  year: string;
-  pages?: string;
-  identifier?: string;
-}
-
-interface ConferencePublication {
-  authors: string;
-  title: string;
-  event: string;
-  location: string;
-  date: string;
-}
-
-type Publication = JournalPublication | ConferencePublication;
-
-interface PublicationSectionProps {
-  title: string;
-  publications: Publication[];
-  type: 'journal' | 'conference';
-}
-
-export function PublicationSection({
-  title,
-  publications,
-  type,
-}: PublicationSectionProps) {
+export default function PublicationSection({ title, publications, type }) {
   return (
     <section>
       <h2 className="text-2xl font-semibold mb-4">{title}</h2>
