@@ -1,5 +1,187 @@
 [
   {
+    "id": "conference-1",
+    "title": "Researcher",
+    "company": "33rd International Power System Conference (PSC)",
+    "location": "Tehran, Iran",
+    "period": "2017 - 2018",
+    "achievements": [
+      "Presented a paper titled \"Prediction Of Market Power Competitive Levels Variation And Players Collusion Form By Decision Tree\" at the 33rd International Power System Conference (PSC).",
+      "Developed a decision tree-based approach for predicting market power variations."
+    ],
+    "techStack": [
+      "Matlab",
+      "R",
+      "C",
+      "C++",
+      "Python",
+      "Java",
+      "Decision Trees",
+      "Market Analysis"
+    ],
+    "responsibilities": [
+      "Research and development",
+      "Data analysis",
+      "Conference presentation"
+    ]
+  },
+  {
+    "id": "conference-2",
+    "title": "Researcher",
+    "company": "33rd International Power System Conference (PSC)",
+    "location": "Tehran, Iran",
+    "period": "2017 - 2018",
+    "achievements": [
+      "Presented a paper titled \"New Reactive Power Market Clearing Scheme With Controlling The Market Competitive Level\" at the 33rd International Power System Conference (PSC).",
+      "Proposed a new reactive power market clearing scheme to control competitive levels."
+    ],
+    "techStack": [
+      "Matlab",
+      "R",
+      "C",
+      "C++",
+      "Python",
+      "Java",
+      "Optimization Algorithms",
+      "Market Analysis"
+    ],
+    "responsibilities": [
+      "Research and development",
+      "Algorithm design",
+      "Conference presentation"
+    ]
+  },
+  {
+    "id": "publication-5",
+    "title": "Researcher",
+    "company": "Iranian Electric Industry Journal of Quality and Productivity",
+    "location": "",
+    "period": "2018 - 2019",
+    "achievements": [
+      "Published a paper titled \"Separate Reactive Power Market Clearing Algorithm Based on Quality Index of Clearing Market\" in the Iranian Electric Industry Journal of Quality and Productivity (ISC Journal).",
+      "Proposed a new algorithm for reactive power market clearing based on quality indices."
+    ],
+    "techStack": [
+      "Matlab",
+      "R",
+      "C",
+      "C++",
+      "Python",
+      "Java",
+      "Optimization Algorithms",
+      "Market Analysis"
+    ],
+    "responsibilities": [
+      "Research and development",
+      "Algorithm design",
+      "Technical writing and publication"
+    ]
+  },
+  {
+    "id": "publication-4",
+    "title": "Researcher",
+    "company": "Journal of Iranian Association of Electrical and Electronics Engineers",
+    "location": "",
+    "period": "2018 - 2019",
+    "achievements": [
+      "Published a paper titled \"Multi-objective Measurement Devices Allocation Using State Estimation in the Distribution System\" in the Journal of Iranian Association of Electrical and Electronics Engineers (ISC Journal).",
+      "Designed a multi-objective algorithm for measurement device allocation."
+    ],
+    "techStack": [
+      "Matlab",
+      "R",
+      "C",
+      "C++",
+      "Python",
+      "Java",
+      "Optimization Algorithms",
+      "State Estimation"
+    ],
+    "responsibilities": [
+      "Research and development",
+      "Algorithm design",
+      "Technical writing and publication"
+    ]
+  },
+  {
+    "id": "publication-1",
+    "title": "Researcher",
+    "company": "International Transactions on Electrical Energy Systems",
+    "location": "",
+    "period": "2019 - 2020",
+    "achievements": [
+      "Published a paper titled \"Measurement devices allocation in the distribution system using state estimation: A multi‐objective approach\" in the International Transactions on Electrical Energy Systems (ISI Journal).",
+      "Developed a multi-objective approach for optimizing measurement device allocation in distribution systems."
+    ],
+    "techStack": [
+      "Matlab",
+      "R",
+      "C",
+      "C++",
+      "Python",
+      "Java",
+      "Tensorflow",
+      "State Estimation Algorithms"
+    ],
+    "responsibilities": [
+      "Research and development",
+      "Algorithm design",
+      "Technical writing and publication"
+    ]
+  },
+  {
+    "id": "publication-2",
+    "title": "Researcher",
+    "company": "Electrical Engineering",
+    "location": "",
+    "period": "2019 - 2020",
+    "achievements": [
+      "Published a paper titled \"Reactive power market clearing mechanism considering new clearing constraints: a separate clearing approach\" in the Electrical Engineering journal (ISI Journal).",
+      "Proposed a new reactive power market clearing mechanism with enhanced constraints."
+    ],
+    "techStack": [
+      "Matlab",
+      "R",
+      "C",
+      "C++",
+      "Python",
+      "Java",
+      "Optimization Algorithms",
+      "Statistical Analysis"
+    ],
+    "responsibilities": [
+      "Research and development",
+      "Market analysis",
+      "Technical writing and publication"
+    ]
+  },
+  {
+    "id": "publication-3",
+    "title": "Researcher",
+    "company": "Iranian Journal of Electrical and Electronic Engineering",
+    "location": "",
+    "period": "2019 - 2020",
+    "achievements": [
+      "Published a paper titled \"Error Modeling in Distribution Network State Estimation Using RBF-Based Artificial Neural Network\" in the Iranian Journal of Electrical and Electronic Engineering (ISC Journal).",
+      "Developed an RBF-based neural network for error modeling in state estimation."
+    ],
+    "techStack": [
+      "Matlab",
+      "R",
+      "C",
+      "C++",
+      "Python",
+      "Java",
+      "Tensorflow",
+      "RBF Neural Networks"
+    ],
+    "responsibilities": [
+      "Research and development",
+      "AI/ML modeling",
+      "Technical writing and publication"
+    ]
+  },
+  {
     "id": "niroo",
     "title": "Software Engineer",
     "company": "Niroo Research Institute",
