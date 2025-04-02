@@ -81,15 +81,12 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton size="lg" asChild>
-              <Link to="https://digibrandco.com/" target="_blank">
+              <Link to="https://www.hncore.website/" target="_blank" className=''>
                 <div className="text-sidebar-primary-foreground flex size-8 items-center justify-center rounded-lg">
-                  <img
-                    src="https://digibrandco.com/_next/image?url=%2Fdigibrand_logo.jpg&w=1200&q=75"
-                    className="rounded-lg"
-                  />
+                  <img src="https://www.hncore.website/logo.png" className="" />
                 </div>
                 <div className="grid flex-1 text-left text-sm leading-tight">
-                  <span className="truncate font-medium">Digibrand Co</span>
+                  <span className="truncate font-medium">HN Core</span>
                   <span className="truncate text-xs">Enterprise</span>
                 </div>
               </Link>
