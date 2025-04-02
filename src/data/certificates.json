@@ -1,0 +1,195 @@
+[
+  {
+    "name": "JavaScript Algorithms and Data Structures",
+    "issuer": "freeCodeCamp",
+    "startDate": "2025-03-31",
+    "completionDate": "2025-04-15",
+    "url": "https://freecodecamp.org/certification/aliezzahn/javascript-algorithms-and-data-structures-v8",
+    "category": "Programming",
+    "skills": [
+      "JavaScript",
+      "Algorithms",
+      "Data Structures",
+      "Problem Solving",
+      "ES6",
+      "Regular Expressions",
+      "Debugging",
+      "OOP"
+    ],
+    "hoursToComplete": 300,
+    "level": "Intermediate",
+    "certificateId": "FCC123JS456",
+    "isVerified": true
+  },
+  {
+    "name": "Responsive Web Design",
+    "issuer": "freeCodeCamp",
+    "startDate": "2025-03-31",
+    "completionDate": "2025-04-10",
+    "url": "https://freecodecamp.org/certification/aliezzahn/responsive-web-design",
+    "category": "Web Development",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Responsive Design",
+      "Accessibility",
+      "Flexbox",
+      "CSS Grid"
+    ],
+    "hoursToComplete": 300,
+    "level": "Beginner",
+    "certificateId": "FCC789RWD012",
+    "isVerified": true
+  },
+  {
+    "name": "Front End Development Libraries",
+    "issuer": "freeCodeCamp",
+    "startDate": "2025-03-31",
+    "completionDate": "2025-04-20",
+    "url": "https://freecodecamp.org/certification/aliezzahn/front-end-development-libraries",
+    "category": "Web Development",
+    "skills": ["React", "Redux", "Bootstrap", "jQuery", "SASS"],
+    "hoursToComplete": 300,
+    "level": "Intermediate",
+    "certificateId": "FCC456FED789",
+    "isVerified": true
+  },
+  {
+    "name": "Data Visualization",
+    "issuer": "freeCodeCamp",
+    "startDate": "2025-03-31",
+    "completionDate": "2025-04-25",
+    "url": "https://freecodecamp.org/certification/aliezzahn/data-visualization",
+    "category": "Data Science",
+    "skills": [
+      "D3.js",
+      "JSON",
+      "APIs",
+      "Data Visualization",
+      "SVG",
+      "Charting"
+    ],
+    "hoursToComplete": 300,
+    "level": "Intermediate",
+    "certificateId": "FCC789DV123",
+    "isVerified": true
+  },
+  {
+    "name": "Back End Development and APIs",
+    "issuer": "freeCodeCamp",
+    "startDate": "2025-03-31",
+    "completionDate": "2025-05-05",
+    "url": "https://freecodecamp.org/certification/aliezzahn/back-end-development-and-apis",
+    "category": "Web Development",
+    "skills": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "APIs",
+      "REST APIs",
+      "Authentication"
+    ],
+    "hoursToComplete": 300,
+    "level": "Intermediate",
+    "certificateId": "FCC321BEA456",
+    "isVerified": true
+  },
+  {
+    "name": "Scientific Computing with Python",
+    "issuer": "freeCodeCamp",
+    "startDate": "2025-03-31",
+    "completionDate": "2025-05-10",
+    "url": "https://freecodecamp.org/certification/aliezzahn/scientific-computing-with-python-v7",
+    "category": "Data Science",
+    "skills": [
+      "Python",
+      "Scientific Computing",
+      "Algorithms",
+      "Data Processing",
+      "NumPy",
+      "Pandas",
+      "Matplotlib"
+    ],
+    "hoursToComplete": 300,
+    "level": "Intermediate",
+    "certificateId": "FCC654SCP789",
+    "isVerified": true
+  },
+  {
+    "name": "Data Analysis with Python",
+    "issuer": "freeCodeCamp",
+    "startDate": "2025-03-31",
+    "completionDate": "2025-05-15",
+    "url": "https://freecodecamp.org/certification/aliezzahn/data-analysis-with-python-v7",
+    "category": "Data Science",
+    "skills": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Data Analysis",
+      "Data Cleaning",
+      "Data Visualization",
+      "Statistical Analysis"
+    ],
+    "hoursToComplete": 300,
+    "level": "Intermediate",
+    "certificateId": "FCC987DAP321",
+    "isVerified": true
+  },
+  {
+    "name": "Machine Learning with Python",
+    "issuer": "freeCodeCamp",
+    "startDate": "2025-03-31",
+    "completionDate": "2025-05-20",
+    "url": "https://freecodecamp.org/certification/aliezzahn/machine-learning-with-python-v7",
+    "category": "Data Science",
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "Neural Networks",
+      "Machine Learning",
+      "AI",
+      "Scikit-learn",
+      "Supervised Learning"
+    ],
+    "hoursToComplete": 300,
+    "level": "Advanced",
+    "certificateId": "FCC123MLP456",
+    "isVerified": true
+  },
+  {
+    "name": "College Algebra with Python",
+    "issuer": "freeCodeCamp",
+    "startDate": "2025-03-31",
+    "completionDate": "2025-04-05",
+    "url": "https://freecodecamp.org/certification/aliezzahn/college-algebra-with-python-v8",
+    "category": "Mathematics",
+    "skills": [
+      "Python",
+      "Algebra",
+      "Mathematics",
+      "Problem Solving",
+      "SymPy",
+      "Graphing"
+    ],
+    "hoursToComplete": 300,
+    "level": "Beginner",
+    "certificateId": "FCC789CAP012",
+    "isVerified": true
+  },
+  {
+    "name": "Legacy Front End",
+    "issuer": "freeCodeCamp",
+    "startDate": "2025-03-31",
+    "completionDate": "2025-04-08",
+    "url": "https://freecodecamp.org/certification/aliezzahn/legacy-front-end",
+    "category": "Web Development",
+    "skills": ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
+    "hoursToComplete": 400,
+    "level": "Beginner",
+    "certificateId": "FCC456LFE789",
+    "isVerified": true
+  }
+]

@@ -1,0 +1,275 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Alireza Hassannejad",
+    "label": "Blockchain",
+    "image": "",
+    "email": "a.r.hassannezhad@gmail.com",
+    "phone": "+989011013239",
+    "url": "https://aliezza.hncore.website/",
+    "summary": "I’m curious, and I enjoy work that challenges me to learn something new and stretch in a different direction. I do my best to stay on top of changes in the state of the art so that I can meet challenges with tools well suited to the job at hand.",
+    "location": {
+      "countryCode": "US",
+      "address": "Iran"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "aliezzahn",
+        "url": "https://www.linkedin.com/in/aliezzahn/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "TOBTC",
+      "position": "Full Stack Developer",
+      "startDate": "2022-12-31",
+      "endDate": "",
+      "highlights": [],
+      "summary": null,
+      "url": "https://www.linkedin.com/company/42908639",
+      "location": null
+    },
+    {
+      "name": "Niroo Research Institute ",
+      "position": "Full Stack Developer",
+      "startDate": "2018-01-31",
+      "endDate": "2022-12-31",
+      "highlights": [],
+      "summary": null,
+      "url": "https://www.linkedin.com/company/18413810",
+      "location": "Tehran, Tehran Province, Iran"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of Science and Technology of Mazandaran",
+      "area": "Electrical and Electronics Engineering",
+      "studyType": "Master's degree",
+      "startDate": "2016-09-30",
+      "endDate": "2018-07-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Mazandaran University of Science and Technology",
+      "area": "Electrical Engineering Technologies/Technicians",
+      "studyType": "Bachelor's degree",
+      "startDate": "2012-09-30",
+      "endDate": "2016-07-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "JavaScript Algorithms and Data Structures",
+      "issuer": "freeCodeCamp",
+      "startDate": "2025-03-31",
+      "url": "https://freecodecamp.org/certification/aliezzahn/javascript-algorithms-and-data-structures-v8"
+    },
+    {
+      "name": "Responsive Web Design",
+      "issuer": "freeCodeCamp",
+      "startDate": "2025-03-31",
+      "url": "https://freecodecamp.org/certification/aliezzahn/responsive-web-design"
+    },
+    {
+      "name": "Front End Development Libraries",
+      "issuer": "freeCodeCamp",
+      "startDate": "2025-03-31",
+      "url": "https://freecodecamp.org/certification/aliezzahn/front-end-development-libraries"
+    },
+    {
+      "name": "Data Visualization",
+      "issuer": "freeCodeCamp",
+      "startDate": "2025-03-31",
+      "url": "https://freecodecamp.org/certification/aliezzahn/data-visualization"
+    },
+    {
+      "name": "Back End Development and APIs",
+      "issuer": "freeCodeCamp",
+      "startDate": "2025-03-31",
+      "url": "https://freecodecamp.org/certification/aliezzahn/back-end-development-and-apis"
+    },
+    {
+      "name": "Scientific Computing with Python",
+      "issuer": "freeCodeCamp",
+      "startDate": "2025-03-31",
+      "url": "https://freecodecamp.org/certification/aliezzahn/scientific-computing-with-python-v7"
+    },
+    {
+      "name": "Data Analysis with Python",
+      "issuer": "freeCodeCamp",
+      "startDate": "2025-03-31",
+      "url": "https://freecodecamp.org/certification/aliezzahn/data-analysis-with-python-v7"
+    },
+    {
+      "name": "Machine Learning with Python",
+      "issuer": "freeCodeCamp",
+      "startDate": "2025-03-31",
+      "url": "https://freecodecamp.org/certification/aliezzahn/machine-learning-with-python-v7"
+    },
+    {
+      "name": "College Algebra with Python",
+      "issuer": "freeCodeCamp",
+      "startDate": "2025-03-31",
+      "url": "https://freecodecamp.org/certification/aliezzahn/college-algebra-with-python-v8"
+    },
+    {
+      "name": "Legacy Front End",
+      "issuer": "freeCodeCamp",
+      "startDate": "2025-03-31",
+      "url": "https://freecodecamp.org/certification/aliezzahn/legacy-front-end"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Reactive power market clearing mechanism considering new clearing constraints: a separate clearing approach",
+      "publisher": "Electrical Engineering",
+      "releaseDate": "2020-09-01",
+      "summary": "In this paper, a new clearing method for the separate reactive power market aiming at improving the reactive power compensation quality is presented. To analyze the performance of the proposed clearing method, indices including profitability rates for power suppliers, participation rates of power suppliers and fair distribution of the revenue and net surpluses have been developed. Robustness and efficiency of the proposed clearing method are tested on the 24-bus IEEE RTS system, and the market problem is solved by a multi-objective evolutionary algorithm based on decomposition. The results evidence that the proposed clearing method improves the quality of reactive power compensation if compared with the available market clearing methods.",
+      "url": "https://link.springer.com/article/10.1007/s00202-020-00986-9"
+    },
+    {
+      "name": "Measurement devices allocation in distribution system using state estimation: A multi‐objective approach",
+      "publisher": "International Transactions on Electrical Energy Systems",
+      "releaseDate": "2020-05-01",
+      "summary": "Optimal allocation of measurement devices is a necessity in order to carry out state estimation of a distribution system. In this paper, the placement problem of power measurement devices is modeled using a multi‐objective method. The objectives of the problem are to minimize measurement devices' costs while increasing the accuracy of state estimation and improving the state estimation quality. Also, operational priorities are considered as another objective, which are based on power losses, lines' capacities, the number of lines connected to a specific line, and the change in lines' flows direction. A multi‐objective evolutionary algorithm based on decomposition (MOEA/D) is used to optimize the allocation of measurement devices within the problem of distribution system state estimation. The state estimation problem is optimized by particle swarm optimization (PSO) algorithm and the Monte Carlo simulation is used to develop some conditions within the network to guarantee the robustness of the proposed method. The method is tested by simulation results on an IEEE 33‐bus and IEEE 123‐bus radial network.",
+      "url": "http://dx.doi.org/10.1002/2050-7038.12469"
+    },
+    {
+      "name": "Error Modeling in Distribution Network State Estimation Using RBF-Based Artificial Neural Network",
+      "publisher": "Iranian Journal of Electrical and Electronic Engineering",
+      "releaseDate": "2019-11-01",
+      "summary": "State estimation is essential to access observable network models for online monitoring and analyzing of power systems. Due to the integration of distributed energy resources and new technologies, state estimation in distribution systems would be necessary. However, accurate input data are essential for an accurate estimation along with knowledge on the possible correlation between the real and pseudo measurements data. This study presents a new approach to model errors for the distribution system state estimation purpose. In this paper, pseudo measurements are generated using a couple of real measurements data by means of the artificial neural network method. In the proposed method, the radial basis function network with the Gaussian kernel is also implemented to decompose pseudo measurements into several components. The robustness of the proposed error modeling method is assessed on IEEE 123-bus distribution test system where the problem is optimized by the imperialist competitive algorithm. The results evidence that the proposed method causes to increase in detachment accuracy of error components which results in presenting higher quality output in the distribution state estimation.",
+      "url": "https://www.researchgate.net/publication/340226825_Error_Modeling_in_Distribution_Network_State_Estimation_Using_RBF-Based_Artificial_Neural_Network"
+    },
+    {
+      "name": "Separate Reactive power market clearing algorithm based on quality index of clearing market",
+      "publisher": "Iranian Electric Industry Journal  Of Quality And Productivity",
+      "releaseDate": "2019-09-01",
+      "summary": "In this paper a new algorithm for clearing of independent reactive power is presented. In the proposed algorithm both traditional objective function of reactive power and some new indices are optimised. The traditional objective function is minimizing the total cost of market and maximizing the profit of players. Some new indices such as Units Association Rate, Producer Unit Profit Rate, Profit Distributing Rate, Production Sharing Rate and Risk of Work In Capacity Limits are introduced in this paper. These indices show the effectiveness of the proposed clearing strategy. The proposed algorithm is implemented on IEEE 24 bus test system.",
+      "url": "https://ieijqp.ir/browse.php?a_id=564&sid=1&slc_lang=en"
+    },
+    {
+      "name": "Multi-objective Measurement Devices Allocation Using State Estimation in Distribution System",
+      "publisher": "Journal of Iranian Association of Electrical and Electronics Engineers",
+      "releaseDate": "2019-04-01",
+      "summary": "Allocation of measurement devices is a necessity of distribution system which is an application of state estimation. In this paper, the problem of active and reactive measurement devices is modeling using a multi-objective method. The objectives of the problem are to minimize the use of measurement devices, increase in state estimation output, improve the state estimation quality and reduce costs. The costs are calculated based on line loss, line capacity, lines connected to the specific line and the change in line flow direction. The Multi-Objective Evolutionary Algorithm based on Decomposition (MOEA/D) is used to optimize the measurement devices allocation within the problem of distribution system state estimation. The simulation and optimization is tested on IEEE 33-busand IEEE 123-bus radial networks and state estimation problem is optimized by particle swarm optimization (PSO) algorithm. The Monte Carlo simulation is used to develop some conditions for network to guarantee the robustness of the proposed method.",
+      "url": "https://jiaeee.com/browse.php?a_id=873&slc_lang=en&sid=1&printcase=1&hbnr=1&hmb=1"
+    },
+    {
+      "name": "Prediction Of Market Power Competitive Levels Variation And Players Collusion Form By Decision Tree",
+      "publisher": "33rd international power system conference (PSC)",
+      "releaseDate": "2018-10-01",
+      "summary": "The evolution of dependency between the market power levels measurement indices, allows that operator to have accurate prediction of the measurement indices values by the several market power competitive levels measurement indices. This prediction provides controlling the market competitive levels basis with preventive actions and preventive controls. Whist, the market power owners can be recognizable by analyzing different aspects of market power. This market power owners recognizing, simples the supervision of their non-competitive behaviors and allows operator to predict the type of probable collation between market power owners. In this paper, the dependency between the market power levels measurement indices is analysed by assessing the relation between set of market power competitive levels measurement indices values using decision tree. These values of market competitive levels are achieved by market simulation in 24-bus IEEE RTS. The market clearing is optimized by multi-objective evolutionary algorithm based on decomposition (MOEA/D).",
+      "url": "https://www.researchgate.net/publication/338792837_Prediction_Of_Market_Power_Competitive_Levels_Variation_And_Players_Collusion_Form_By_Decision_Tree"
+    },
+    {
+      "name": "New Reactive Power Market Clearing Scheme With Controlling The Market Competitive Level",
+      "publisher": "33rd international power system conference (PSC)",
+      "releaseDate": "2018-10-01",
+      "summary": "Improvement of the separate reactive power market clearing performance is necessary due to increase the participation of units along with maintaining voltage profile of the network, providing reliable and high quality ancillary services and freeing up the transmission lines capacity. Quality of a power market clearing method could measure not only by the values of the market final costs but also by market participations rates, market profitability rates and fair distributing profits. In this paper, a new power market clearing method is presented to clear separate active and reactive power market which is founded on effectiveness of the market clearing strategy regarding to market input parameters changes. The Proposed clearing method aims at improving the control on more specific terms of market clearing including market total costs, market profitability, market competitive level, market share and dependency level of market clearing strategy to market input parameters. Robustness of the proposed market clearing method is tested on 24-bus IEEE RTS for separate reactive power market clearing and the market problem is solved by genetic algorithm. The results proof that the proposed clearing method improves the quality of market clearing performance if compared with other usual market clearing schemes.",
+      "url": "https://www.researchgate.net/publication/340226646_New_Reactive_Power_Market_Clearing_Scheme_With_Controlling_The_Market_Competitive_Level"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Telegram Mini App",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bun.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Slack",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React Native",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python (Programming Language)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Automation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Artificial Intelligence (AI)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "GitHub",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TypeScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Desktop Application Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TensorFlow",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Machine Learning",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Rust (Programming Language)",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "Limited Working",
+      "language": "English"
+    },
+    {
+      "fluency": "Native Speaker",
+      "language": "Persian"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": []
+}

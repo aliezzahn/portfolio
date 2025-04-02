@@ -40,6 +40,10 @@ const data = {
           title: 'Experties',
           url: '/expertise',
         },
+        {
+          title: 'Certificates',
+          url: '/certificates',
+        },
       ],
     },
     {

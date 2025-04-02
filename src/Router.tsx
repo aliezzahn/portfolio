@@ -8,6 +8,7 @@ import Me from './pages/Me';
 import Packages from './pages/Packages';
 import Publications from './pages/Publications';
 import Repositories from './pages/Repositories';
+import Certificates from './pages/Certificates';
 
 const routes = [
   { path: '/', element: <Me /> },
@@ -18,6 +19,7 @@ const routes = [
   { path: '/experiences', element: <Experiences /> },
   { path: '/expertise', element: <Experties /> },
   { path: '/contact', element: <Contact /> },
+  { path: '/certificates', element: <Certificates /> },
 ];
 
 export default function Router() {
