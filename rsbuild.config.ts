@@ -13,6 +13,11 @@ export default defineConfig({
     favicon: './public/favicon.ico',
     template: './public/index.html',
   },
+  source: {
+    define: {
+      'process.env': JSON.stringify(process.env),
+    },
+  },
 
   module: {
     rules: [

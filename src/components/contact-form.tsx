@@ -22,9 +22,10 @@ import { Textarea } from '@/components/ui/textarea';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Loader2, Send } from 'lucide-react';
 import { AlertCircle, CheckCircle } from 'lucide-react';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
+import emailjs from '@emailjs/browser';
 
 const formSchema = z.object({
   name: z.string().min(2, { message: 'Name must be at least 2 characters.' }),
@@ -45,6 +46,8 @@ export function ContactForm() {
     'idle',
   );
 
+  const formRef = useRef<HTMLFormElement>(null); // Add a ref to access the form element
+
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -55,24 +58,30 @@ export function ContactForm() {
     },
   });
 
-  async function onSubmit(data: FormValues) {
-    setIsSubmitting(true);
-    setFormStatus('idle');
+async function onSubmit(data: FormValues) {
+  setIsSubmitting(true);
+  setFormStatus('idle');
 
-    try {
-      // Simulate API call
-      await new Promise((resolve) => setTimeout(resolve, 1500));
+  try {
+    if (!formRef.current) throw new Error('Form reference not found');
 
-      console.log('Form submitted:', data);
-      setFormStatus('success');
-      form.reset();
-    } catch (error) {
-      console.error('Error submitting form:', error);
-      setFormStatus('error');
-    } finally {
-      setIsSubmitting(false);
-    }
+    await emailjs.sendForm(
+      process.env.EMAIL_SERVICE_ID,
+      process.env.EMAIL_TEMPLATE_ID,
+      formRef.current,
+      process.env.EMAIL_PUBLIC_KEY,
+    );
+
+    console.log('Form submitted:', data);
+    setFormStatus('success');
+    form.reset();
+  } catch (error) {
+    console.error('Error submitting form:', error);
+    setFormStatus('error');
+  } finally {
+    setIsSubmitting(false);
   }
+}
 
   return (
     <Card>
@@ -106,7 +115,7 @@ export function ContactForm() {
         )}
 
         <Form {...form}>
-          <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+          <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6" ref={formRef}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <FormField
                 control={form.control}
