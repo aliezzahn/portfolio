@@ -51,6 +51,7 @@
       "startDate": "2016-09-30",
       "endDate": "2018-07-31",
       "score": "",
+      "logo": "/mazust_logo.jpeg",
       "courses": []
     },
     {
@@ -60,6 +61,7 @@
       "startDate": "2012-09-30",
       "endDate": "2016-07-31",
       "score": "",
+      "logo": "/ustmb_logo.jpeg",
       "courses": []
     }
   ],
@@ -180,82 +182,114 @@
   "skills": [
     {
       "name": "Telegram Mini App",
+      "from": "Full Stack Developer at TOBTC",
+      "logo": "/tobtc_logo.jpeg",
       "level": "",
       "keywords": []
     },
     {
       "name": "Bun.js",
       "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Slack",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Node.js",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "JavaScript",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "React Native",
-      "level": "",
+      "from": "Full Stack Developer at TOBTC",
+      "logo": "/tobtc_logo.jpeg",
       "keywords": []
     },
     {
       "name": "Python (Programming Language)",
       "level": "",
+      "from": "Full Stack Developer at Niroo Research Institute",
+      "logo": "/niroo_logo.jpeg",
       "keywords": []
     },
     {
       "name": "Automation",
       "level": "",
+      "from": "Full Stack Developer at Niroo Research Institute",
+      "logo": "/niroo_logo.jpeg",
+      "keywords": []
+    },
+    {
+      "name": "Slack",
+      "level": "",
+      "from": "Full Stack Developer at TOBTC",
+      "logo": "/tobtc_logo.jpeg",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "from": "Full Stack Developer at TOBTC",
+      "logo": "/tobtc_logo.jpeg",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "from": "Full Stack Developer at TOBTC",
+      "logo": "/tobtc_logo.jpeg",
+      "keywords": []
+    },
+    {
+      "name": "React Native",
+      "level": "",
+      "from": "Full Stack Developer at TOBTC",
+      "logo": "/tobtc_logo.jpeg",
       "keywords": []
     },
     {
       "name": "Artificial Intelligence (AI)",
       "level": "",
+      "from": "Full Stack Developer at Niroo Research Institute",
+      "logo": "/niroo_logo.jpeg",
       "keywords": []
     },
     {
       "name": "GitHub",
       "level": "",
+      "from": "Full Stack Developer at TOBTC",
+      "logo": "/tobtc_logo.jpeg",
       "keywords": []
     },
     {
       "name": "TypeScript",
       "level": "",
+      "from": "Full Stack Developer at TOBTC",
+      "logo": "/tobtc_logo.jpeg",
       "keywords": []
     },
     {
       "name": "React.js",
       "level": "",
+      "from": "Full Stack Developer at TOBTC",
+      "logo": "/tobtc_logo.jpeg",
       "keywords": []
     },
     {
       "name": "Desktop Application Development",
       "level": "",
+      "from": "Full Stack Developer at Niroo Research Institute",
+      "logo": "/niroo_logo.jpeg",
       "keywords": []
     },
     {
       "name": "TensorFlow",
       "level": "",
+      "from": "Full Stack Developer at Niroo Research Institute",
+      "logo": "/niroo_logo.jpeg",
       "keywords": []
     },
     {
       "name": "Machine Learning",
       "level": "",
+      "from": "Full Stack Developer at Niroo Research Institute",
+      "logo": "/niroo_logo.jpeg",
       "keywords": []
     },
     {
       "name": "Rust (Programming Language)",
       "level": "",
+      "from": "Full Stack Developer at TOBTC",
+      "logo": "/tobtc_logo.jpeg",
       "keywords": []
     }
   ],

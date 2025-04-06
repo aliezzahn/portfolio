@@ -1,25 +1,32 @@
 import { BrowserRouter, Route, Routes } from 'react-router';
-import Layout from './components/layout';
-import Contact from './pages/Contact';
-import Educations from './pages/Educations';
-import Experiences from './pages/Experiences';
-import Experties from './pages/Experties';
-import Me from './pages/Me';
-import Packages from './pages/Packages';
-import Publications from './pages/Publications';
-import Repositories from './pages/Repositories';
-import Certificates from './pages/Certificates';
+import Layout from '@/components/layout';
+import Contact from '@/pages/Contact';
+import Educations from '@/pages/Educations';
+import Experiences from '@/pages/Experiences';
+import Expertise from '@/pages/Experties';
+import Packages from '@/pages/Packages';
+import Publications from '@/pages/Publications';
+import Repositories from '@/pages/Repositories';
+import Certificates from '@/pages/Certificates';
+import LinkedInProfile from '@/pages/LinkedinProfile.tsx';
+import Biography from '@/pages/Biography';
+import Showcases from '@/pages/Showcases.tsx';
+import LinkedInPage from '@/pages/LinkedinPage.tsx';
 
 const routes = [
-  { path: '/', element: <Me /> },
-  { path: '/repositories', element: <Repositories /> },
-  { path: '/packages', element: <Packages /> },
-  { path: '/publications', element: <Publications /> },
-  { path: '/educations', element: <Educations /> },
-  { path: '/experiences', element: <Experiences /> },
-  { path: '/expertise', element: <Experties /> },
+  { path: '/', element: <Biography /> },
+  { path: '/informations/biography', element: <Biography /> },
+  { path: '/informations/educations', element: <Educations /> },
+  { path: '/informations/experiences', element: <Experiences /> },
+  { path: '/informations/expertise', element: <Expertise /> },
+  { path: '/informations/certificates', element: <Certificates /> },
+  { path: '/projects/repositories', element: <Repositories /> },
+  { path: '/projects/packages', element: <Packages /> },
+  { path: '/projects/publications', element: <Publications /> },
   { path: '/contact', element: <Contact /> },
-  { path: '/certificates', element: <Certificates /> },
+  { path: '/showcases', element: <Showcases /> },
+  { path: '/showcases/linkedin-profile', element: <LinkedInProfile /> },
+  { path: '/showcases/linkedin-page', element: <LinkedInPage /> },
 ];
 
 export default function Router() {
