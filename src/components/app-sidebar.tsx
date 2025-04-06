@@ -1,7 +1,20 @@
-import { FolderGit2, LifeBuoy, SquareTerminal } from 'lucide-react';
+import {
+  FolderGit2,
+  LifeBuoy,
+  SquareTerminal,
+  User,
+  GraduationCap,
+  Briefcase,
+  Award,
+  Badge,
+  GitBranch,
+  Package,
+  Book,
+  Monitor,
+} from 'lucide-react';
 import type * as React from 'react';
 
-import { NavMain } from '@/components/nav-main';
+// import { NavMain } from '@/components/nav-main';
 import { NavSecondary } from '@/components/nav-secondary';
 import { NavUser } from '@/components/nav-user';
 import {
@@ -14,6 +27,7 @@ import {
   SidebarMenuItem,
 } from '@/components/ui/sidebar';
 import { Link } from 'react-router';
+import { NavDocuments } from '@/components/nav-documents.tsx';
 
 const data = {
   user: {
@@ -29,20 +43,29 @@ const data = {
       isActive: true,
       items: [
         {
+          title: 'Biography',
+          url: 'informations/biography',
+          icon: User,
+        },
+        {
           title: 'Educations',
-          url: '/educations',
+          url: 'informations/educations',
+          icon: GraduationCap,
         },
         {
           title: 'Experiences',
-          url: '/experiences',
+          url: 'informations/experiences',
+          icon: Briefcase,
         },
         {
           title: 'Experties',
-          url: '/expertise',
+          url: 'informations/expertise',
+          icon: Award,
         },
         {
           title: 'Certificates',
-          url: '/certificates',
+          url: 'informations/certificates',
+          icon: Badge,
         },
       ],
     },
@@ -53,15 +76,23 @@ const data = {
       items: [
         {
           title: 'Repositories',
-          url: '/repositories',
+          url: 'projects/repositories',
+          icon: GitBranch,
         },
         {
           title: 'Packages',
-          url: '/packages',
+          url: 'projects/packages',
+          icon: Package,
         },
         {
           title: 'Publications',
-          url: '/publications',
+          url: 'projects/publications',
+          icon: Book,
+        },
+        {
+          title: 'Showcases',
+          url: 'showcases',
+          icon: Monitor,
         },
       ],
     },
@@ -85,7 +116,11 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton size="lg" asChild>
-              <Link to="https://www.hncore.website/" target="_blank" className=''>
+              <Link
+                to="https://www.hncore.website/"
+                target="_blank"
+                className=""
+              >
                 <div className="text-sidebar-primary-foreground flex size-8 items-center justify-center rounded-lg">
                   <img src="https://www.hncore.website/logo.png" className="" />
                 </div>
@@ -99,7 +134,9 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         </SidebarMenu>
       </SidebarHeader>
       <SidebarContent>
-        <NavMain items={data.navMain} />
+        {/*<NavMain items={data.navMain} />*/}
+        <NavDocuments title="Informations" items={data.navMain[0].items} />
+        <NavDocuments title="Projects" items={data.navMain[1].items} />
         <NavSecondary items={data.navSecondary} className="mt-auto" />
       </SidebarContent>
       <SidebarFooter>

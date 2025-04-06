@@ -1,5 +1,3 @@
-'use client';
-
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Button } from '@/components/ui/button';
 import {
@@ -58,30 +56,30 @@ export function ContactForm() {
     },
   });
 
-async function onSubmit(data: FormValues) {
-  setIsSubmitting(true);
-  setFormStatus('idle');
+  async function onSubmit(data: FormValues) {
+    setIsSubmitting(true);
+    setFormStatus('idle');
 
-  try {
-    if (!formRef.current) throw new Error('Form reference not found');
+    try {
+      if (!formRef.current) throw new Error('Form reference not found');
 
-    await emailjs.sendForm(
-      process.env.EMAIL_SERVICE_ID,
-      process.env.EMAIL_TEMPLATE_ID,
-      formRef.current,
-      process.env.EMAIL_PUBLIC_KEY,
-    );
+      await emailjs.sendForm(
+        process.env.EMAIL_SERVICE_ID,
+        process.env.EMAIL_TEMPLATE_ID,
+        formRef.current,
+        process.env.EMAIL_PUBLIC_KEY,
+      );
 
-    console.log('Form submitted:', data);
-    setFormStatus('success');
-    form.reset();
-  } catch (error) {
-    console.error('Error submitting form:', error);
-    setFormStatus('error');
-  } finally {
-    setIsSubmitting(false);
+      console.log('Form submitted:', data);
+      setFormStatus('success');
+      form.reset();
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      setFormStatus('error');
+    } finally {
+      setIsSubmitting(false);
+    }
   }
-}
 
   return (
     <Card>
@@ -115,7 +113,11 @@ async function onSubmit(data: FormValues) {
         )}
 
         <Form {...form}>
-          <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6" ref={formRef}>
+          <form
+            onSubmit={form.handleSubmit(onSubmit)}
+            className="space-y-6"
+            ref={formRef}
+          >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <FormField
                 control={form.control}

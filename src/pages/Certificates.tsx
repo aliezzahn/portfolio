@@ -1,5 +1,3 @@
-'use client';
-
 import { useState } from 'react';
 import { CertificateGrid } from '@/components/certificate-grid';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';

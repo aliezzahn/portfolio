@@ -14,48 +14,25 @@ import { useLocation } from 'react-router';
 import { SearchCommand } from './search-command';
 import { ThemeToggle } from './theme-toggle';
 
+function capitalizeFirstLetter(string: string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 export function SiteHeader() {
   const { toggleSidebar } = useSidebar();
-  const location = useLocation();
+  const { pathname } = useLocation();
 
+  const path = pathname.split('/').slice(1);
+  
   function getBreadcrumbTitle() {
-    if (
-      location.pathname.includes('educations') ||
-      location.pathname.includes('experiences') ||
-      location.pathname.includes('expertise')
-    ) {
-      return 'Information';
-    } else if (
-      location.pathname.includes('repositories') ||
-      location.pathname.includes('packages') ||
-      location.pathname.includes('publications')
-    ) {
-      return 'Projects';
-    } else if (location.pathname === '/') {
-      return 'About';
-    } else if (location.pathname.includes('contact')) {
-      return 'Me';
-    }
+    return capitalizeFirstLetter(path[0]);
   }
 
   function getBreadcrumbSubTitle() {
-    if (location.pathname.includes('educations')) {
-      return 'Educations';
-    } else if (location.pathname.includes('experiences')) {
-      return 'Experiences';
-    } else if (location.pathname.includes('expertise')) {
-      return 'Expertise';
-    } else if (location.pathname.includes('contact')) {
-      return 'Contact';
-    } else if (location.pathname.includes('repositories')) {
-      return 'Repositories';
-    } else if (location.pathname.includes('packages')) {
-      return 'Packages';
-    } else if (location.pathname.includes('publications')) {
-      return 'Publications';
-    } else if (location.pathname === '/') {
-      return 'Me';
+    if (path.length > 1) {
+      return capitalizeFirstLetter(path[1]);
     }
+    return null;
   }
 
   return (
@@ -75,10 +52,14 @@ export function SiteHeader() {
             <BreadcrumbItem>
               <BreadcrumbLink href="#">{getBreadcrumbTitle()}</BreadcrumbLink>
             </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbPage>{getBreadcrumbSubTitle()}</BreadcrumbPage>
-            </BreadcrumbItem>
+            {getBreadcrumbSubTitle() && (
+              <>
+                <BreadcrumbSeparator />
+                <BreadcrumbItem>
+                  <BreadcrumbPage>{getBreadcrumbSubTitle()}</BreadcrumbPage>
+                </BreadcrumbItem>
+              </>
+            )}
           </BreadcrumbList>
         </Breadcrumb>
         <div className="w-full sm:ml-auto sm:w-auto">
